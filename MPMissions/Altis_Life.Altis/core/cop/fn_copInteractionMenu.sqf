@@ -12,6 +12,7 @@
 #define Btn5 37454
 #define Btn6 37455
 #define Btn7 37456
+#define Btn8 37457
 #define Btn9 37458
 #define Title 37401
 
@@ -60,6 +61,7 @@ _Btn4 = _display displayCtrl Btn4;
 _Btn5 = _display displayCtrl Btn5;
 _Btn6 = _display displayCtrl Btn6;
 _Btn7 = _display displayCtrl Btn7;
+_Btn8 = _display displayCtrl Btn8;
 _Btn9 = _display displayCtrl Btn9;
 life_pInact_curTarget = _curTarget;
 
@@ -84,6 +86,10 @@ if((_curTarget getVariable["Escorting",false])) then {
 	_Btn4 buttonSetAction "[life_pInact_curTarget] call life_fnc_escortAction; closeDialog 0;";
 };
 
+//actually the Breathalyser button
+_Btn9 ctrlSetText localize "STR_pInAct_Breathalyzer";
+_Btn9 buttonSetAction "[[player],""life_fnc_breathalyzer"",life_pInact_curTarget,FALSE] spawn life_fnc_MP;closeDialog 0";
+
 //Set Ticket Button
 _Btn5 ctrlSetText localize "STR_pInAct_TicketBtn";
 _Btn5 buttonSetAction "[life_pInact_curTarget] call life_fnc_ticketAction;";
@@ -94,12 +100,14 @@ _Btn6 buttonSetAction "closeDialog 0; [] call life_fnc_showArrestDialog;";
 _Btn7 ctrlSetText localize "STR_pInAct_PutInCar";
 _Btn7 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar;";
 
-//bouton Alcootest
+_Btn8 ctrlSetText localize "STR_pInAct_Breathalyzer";
+_Btn8 buttonSetAction "[[player],""life_fnc_breathalyzer"",life_pInact_curTarget,FALSE] spawn life_fnc_MP;closeDialog 0";
+
 _Btn9 ctrlSetText localize "STR_pInAct_Breathalyzer";
 _Btn9 buttonSetAction "[[player],""life_fnc_breathalyzer"",life_pInact_curTarget,FALSE] spawn life_fnc_MP;closeDialog 0";
 
 //Check that you are near a place to jail them.
-if(!((player distance (getMarkerPos "police_hq_1") < 30) OR  (player distance (getMarkerPos "police_hq_2") < 30) OR (player distance (getMarkerPos "cop_spawn_3") < 30) OR (player distance (getMarkerPos "cop_spawn_5") < 30) OR (player distance (getMarkerPos "Tribunal de Kavala") < 30))) then 
+if(!((player distance (getMarkerPos "police_hq_1") < 30) OR  (player distance (getMarkerPos "police_hq_2") < 30) OR (player distance (getMarkerPos "cop_spawn_3") < 30) OR (player distance (getMarkerPos "cop_spawn_5") < 30))) then 
 {
 	_Btn6 ctrlEnable false;
 };

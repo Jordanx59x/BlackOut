@@ -1,6 +1,5 @@
 /*
 File: fn_breathalyzer.sqf
-Author: Wawixs
 */
 
 private["_cop","_drinky"];

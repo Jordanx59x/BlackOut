@@ -1,3 +1,4 @@
+
 /*
 	File: fn_taxRate.sqf
 	Author: Bryan "Tonic" Boardwine

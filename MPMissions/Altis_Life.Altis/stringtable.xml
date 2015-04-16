@@ -2926,13 +2926,25 @@
 			<Original>Rye Plants</Original>
 			<French>Seigle</French>
 		</Key>
+		<Key ID="STR_Item_Yeast">
+			<Original>Yeast</Original>
+			<French>Levure</French>
+		</Key>
+		<Key ID="STR_Item_Cornmeal">
+			<Original>Cornmeal</Original>
+			<French>Semoule de maïs</French>
+		</Key>
+		<Key ID="STR_Item_Bottle">
+			<Original>Bottle</Original>
+			<French>Bouteille</French>
+		</Key>			
 		<Key ID="STR_Item_Hops">
 			<Original>Hops</Original>
 			<French>Houblon</French>
 		</Key>
 		<Key ID="STR_Item_Yeast">
 			<Original>Yeast</Original>
-			<French>Levure de bière</French>
+			<French>Levure</French>
 		</Key>
 		<Key ID="STR_Item_Apple">
 			<Original>Apple</Original>
@@ -4198,6 +4210,13 @@
 			<Italian>Arresta</Italian>
 			<Portuguese>Enviar p/ Prisão</Portuguese>
 		</Key>
+		</Key>
+		<Key ID="STR_pInAct_Breathalyzer">
+			<Original>Breathalyzer Test</Original>
+			<English>Breathalyzer Test</English>
+			<German>Alkohol test</German>
+			<French>Alcootest</French>
+		</Key>
 		<Key ID="STR_pInAct_Repair">
 			<Original>Repair Door</Original>
 			<German>Tür reparieren</German>
@@ -4253,6 +4272,7 @@
 			<French>Accés au garage</French>
 			<Italian>Garage</Italian>
 			<Portuguese>Garagem</Portuguese>
+		</Key>
 		</Key>
 		<Key ID="STR_pInAct_StoreVeh">
 			<Original>Store Vehicle</Original>
@@ -4855,14 +4875,14 @@
 		<Key ID="STR_pAct_DropFishingNet">
 			<Original>Drop Fishing Net</Original>
 			<German>Fischernetz auswerfen</German>
-			<French>Drop Fishing Net</French>
+			<French>Jeter le filet de pêche</French>
 			<Italian>Drop Fishing Net</Italian>		
 			<Portuguese>Jogar Rede de Pesca</Portuguese>
 		</Key>
 		<Key ID="STR_pAct_RobPerson">
 			<Original>Rob Person</Original>
 			<German>Person ausrauben</German>
-			<French>Rob Person</French>
+			<French>Voler la personne</French>
 			<Italian>Rob Person</Italian>		
 			<Portuguese>Roubar Jogador</Portuguese>
 		</Key>

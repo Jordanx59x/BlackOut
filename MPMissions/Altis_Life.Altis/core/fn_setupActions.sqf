@@ -34,7 +34,5 @@ switch (playerSide) do
 	{	
 		//insigne de police
 		life_actions = life_actions + [player addAction["<t color='#00FF00'>Insigne de police</t>",life_fnc_copShowLicense,"",1,false,true,"",' playerSide == west && !isNull cursorTarget && cursorTarget isKindOf "Man" ']];
-		//Saisir Armes et Chargeurs
-		life_actions = life_actions + [player addAction["<t color='#ED7F10'>Saisir Armes et Uniformes</t>",life_fnc_seizePlayerWeapon,cursorTarget,0,false,false,"",'!isNull cursorTarget && (player distance cursorTarget) < 6 && speed cursorTarget < 2 && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget == civilian) && (cursorTarget getVariable "restrained")']];
 	};
 };

@@ -606,6 +606,43 @@ switch (_shop) do
 			["O_Truck_03_device_F",450000]
 		];	
 	};
+	
+	case "civ_moto":
+	{
+		_return =
+		[
+			["cl3_xr_1000_aqua",150000],
+			["cl3_xr_1000_babyblue",150000],
+			["cl3_xr_1000_babypink",150000],
+			["cl3_xr_1000_blue",150000],
+			["cl3_xr_1000_burgundy",150000],
+			["cl3_xr_1000_camo_urban",150000],
+			["cl3_xr_1000_camo",150000],
+			["cl3_xr_1000_cardinal",150000],
+			["cl3_xr_1000_dark_green",150000],
+			["cl3_xr_1000_flame",150000],
+			["cl3_xr_1000_flame1",150000],
+			["cl3_xr_1000_flame2",150000],
+			["cl3_xr_1000_gold",150000],
+			["cl3_xr_1000_green",150000],
+			["cl3_xr_1000_grey",150000],
+			["cl3_xr_1000_lavender",150000],
+			["cl3_xr_1000_light_blue",150000],
+			["cl3_xr_1000_light_yellow",150000],
+			["cl3_xr_1000_lime",150000],
+			["cl3_xr_1000_marina_blue",150000],
+			["cl3_xr_1000_navy_blue",150000],
+			["cl3_xr_1000_orange",150000],
+			["cl3_xr_1000_purple",150000],
+			["cl3_xr_1000_red",150000],
+			["cl3_xr_1000_sand",150000],
+			["cl3_xr_1000_silver",150000],
+			["cl3_tron_yellow",150000],
+			["cl3_xr_1000_violet",150000],
+			["cl3_xr_1000_yellow",150000],
+			["cl3_xr_1000_white",150000]
+		];	
+	};
 
 	case "reb_car":
 	{

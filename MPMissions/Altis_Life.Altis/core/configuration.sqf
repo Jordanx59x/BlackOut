@@ -193,7 +193,6 @@ life_licenses =
 	["license_cop_swat","cop"],
 	["license_cop_cg","cop"],
 	["license_civ_driver","civ"],
-	["license_civ_moto","civ"],
 	["license_civ_air","civ"],
 	["license_civ_heroin","civ"],
 	["license_civ_marijuana","civ"],
@@ -217,7 +216,8 @@ life_licenses =
 	["license_civ_meth","civ"],
 	["license_civ_stiller","civ"],
 	["license_civ_liquor","civ"],
-	["license_civ_bottler","civ"]
+	["license_civ_bottler","civ"],
+	["license_civ_moto","civ"]
 ];
 
 //Setup License Variables
@@ -416,16 +416,21 @@ life_garage_sell =
 	["B_Truck_01_transport_F",187500],
 	["O_Truck_03_device_F",225000],
 	["O_MRAP_02_F",500000],
+	
 	["B_Heli_Light_01_F",162500],
+	
 	["O_Truck_03_transport_F",150000],
 	["O_Truck_03_covered_F",175000],
+	
 	["O_Heli_Light_02_unarmed_F",450000],
+	
 	["C_Rubberboat",12500],
 	["C_Boat_Civil_01_F",26000],
 	["B_Boat_Transport_01_F",1500],
 	["C_Boat_Civil_01_police_F",10000],
 	["B_Boat_Armed_01_minigun_F",125000],
 	["B_SDV_01_F",50000],
+	
 	["B_MRAP_01_F",75000],
 	["DAR_ImpalaPolice",5000],
 	["DAR_TaurusPolice",17500],
@@ -436,8 +441,10 @@ life_garage_sell =
 	["DAR_ExplorerPoliceStealth",15000],
 	["DAR_ChargerPoliceState",25000],
 	["cl3_reventon_clpd",250000],
+	
 	["cl3_dodge_charger_emt",25000],
 	["cl3_dodge_charger_emt",25000],
+	
 	["cl3_458_2tone1",425000],
 	["cl3_458_2tone2",425000],
 	["cl3_458_2tone3",425000],
@@ -992,7 +999,38 @@ life_garage_sell =
 	["O_Truck_03_transport_F",150000],
 	["O_Truck_03_covered_F",175000],
 	["B_Truck_01_box_F",200000],
-	["O_Truck_03_device_F",450000]
+	["O_Truck_03_device_F",450000],
+	
+	["cl3_xr_1000_aqua",75000],
+	["cl3_xr_1000_babyblue",75000],
+	["cl3_xr_1000_babypink",75000],
+	["cl3_xr_1000_blue",75000],
+	["cl3_xr_1000_burgundy",75000],
+	["cl3_xr_1000_camo_urban",75000],
+	["cl3_xr_1000_camo",75000],
+	["cl3_xr_1000_cardinal",75000],
+	["cl3_xr_1000_dark_green",75000],
+	["cl3_xr_1000_flame",75000],
+	["cl3_xr_1000_flame1",75000],
+	["cl3_xr_1000_flame2",75000],
+	["cl3_xr_1000_gold",75000],
+	["cl3_xr_1000_green",75000],
+	["cl3_xr_1000_grey",75000],
+	["cl3_xr_1000_lavender",75000],
+	["cl3_xr_1000_light_blue",75000],
+	["cl3_xr_1000_light_yellow",75000],
+	["cl3_xr_1000_lime",75000],
+	["cl3_xr_1000_marina_blue",75000],
+	["cl3_xr_1000_navy_blue",75000],
+	["cl3_xr_1000_orange",75000],
+	["cl3_xr_1000_purple",75000],
+	["cl3_xr_1000_red",75000],
+	["cl3_xr_1000_sand",75000],
+	["cl3_xr_1000_silver",75000],
+	["cl3_tron_yellow",75000],
+	["cl3_xr_1000_violet",75000],
+	["cl3_xr_1000_yellow",75000],
+	["cl3_xr_1000_white",75000]
 ];
 __CONST__(life_garage_sell,life_garage_sell);
 
@@ -1605,6 +1643,49 @@ life_assur_prices =
 	["O_Truck_03_transport_F",150000],
 	["O_Truck_03_covered_F",175000],
 	["B_Truck_01_box_F",200000],
-	["O_Truck_03_device_F",450000]
+	["O_Truck_03_device_F",225000],
+	
+	["cl3_xr_1000_aqua",75000],
+	["cl3_xr_1000_babyblue",75000],
+	["cl3_xr_1000_babypink",75000],
+	["cl3_xr_1000_blue",75000],
+	["cl3_xr_1000_burgundy",75000],
+	["cl3_xr_1000_camo_urban",75000],
+	["cl3_xr_1000_camo",75000],
+	["cl3_xr_1000_cardinal",75000],
+	["cl3_xr_1000_dark_green",75000],
+	["cl3_xr_1000_flame",75000],
+	["cl3_xr_1000_flame1",75000],
+	["cl3_xr_1000_flame2",75000],
+	["cl3_xr_1000_gold",75000],
+	["cl3_xr_1000_green",75000],
+	["cl3_xr_1000_grey",75000],
+	["cl3_xr_1000_lavender",75000],
+	["cl3_xr_1000_light_blue",75000],
+	["cl3_xr_1000_light_yellow",75000],
+	["cl3_xr_1000_lime",75000],
+	["cl3_xr_1000_marina_blue",75000],
+	["cl3_xr_1000_navy_blue",75000],
+	["cl3_xr_1000_orange",75000],
+	["cl3_xr_1000_purple",75000],
+	["cl3_xr_1000_red",75000],
+	["cl3_xr_1000_sand",75000],
+	["cl3_xr_1000_silver",75000],
+	["cl3_tron_yellow",75000],
+	["cl3_xr_1000_violet",75000],
+	["cl3_xr_1000_yellow",75000],
+	["cl3_xr_1000_white",75000],
+	
+	["DAR_CVPIAux",2500],
+	["DAR_ExplorerPolice",3750],
+	["DAR_ImpalaPolice",5000],
+	["DAR_TaurusPolice",17500],
+	["DAR_TahoePolice",17500],
+	["DAR_TahoePoliceDet",17500],
+	["DAR_TaurusPoliceState",17500],
+	["DAR_ChargerPolice",25000],
+	["DAR_ExplorerPoliceStealth",15000],
+	["DAR_ChargerPoliceState",25000],
+	["cl3_reventon_clpd",250000]
 ];
 __CONST__(life_assur_prices,life_assur_prices);

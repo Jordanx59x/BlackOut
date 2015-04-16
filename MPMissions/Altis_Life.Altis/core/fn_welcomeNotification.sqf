@@ -6,7 +6,7 @@
 */
 format["Bonjour %1, Veuillez lire ce message",profileName] hintC
 [
-	"Bienvenue sur le serveur BlackOutRPG ! Le serveur est en développement !",
+	"Bienvenue sur le serveur BlackOut RP ! Le serveur est en développement !",
 	"Si vous rencontrez des bugs veuillez le signaler",
 	"Les Fondateurs sont : Jordanx59x , Okan",
 	"Les Administrateurs sont : MrBlackAngel , Alberto Parrachini",

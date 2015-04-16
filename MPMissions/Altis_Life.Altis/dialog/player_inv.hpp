@@ -261,7 +261,7 @@ class playerSettings {
 
 		class ButtonGangList : Life_RscButtonMenu {
 			idc = 2012;
-			text = "Interpole";
+			text = "Interpol";
 			onButtonClick = "[] call life_fnc_wantedMenu";
 			x = 0.1 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.8 - (1 / 25);
@@ -271,7 +271,7 @@ class playerSettings {
 
 		class ButtonKeys : Life_RscButtonMenu {
 			idc = 2013;
-			text = "Clefs";
+			text = "Clès";
 			onButtonClick = "createDialog ""Life_key_management"";";
 			x = 0.26 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.8 - (1 / 25);
@@ -312,7 +312,7 @@ class playerSettings {
 		
 		class ButtonMarket : Life_RscButtonMenu {
 			idc = -1;
-			text = "Market";
+			text = "Bourse";
 			onButtonClick = "[] spawn life_fnc_openMarketView;";
 			//x = 0.26 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
 			x = 0.26 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));

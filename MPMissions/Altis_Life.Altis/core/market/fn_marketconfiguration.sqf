@@ -90,15 +90,6 @@ life_market_resources = [
 		] 
 	],
 /////////////////////////
-	
-	["turtle", 4300, 2150,7225, 4, 4,  
-		[ 
-			["marijuana",1], 
-			["cocainep",1],
-			["heroinp",1],
-			["methp",1]
-		] 
-	],
 
 	["marijuana", 4000, 2000, 7000, 4, 4,   
 		[ 
@@ -134,8 +125,18 @@ life_market_resources = [
 			["cocainep",1],
 			["heroinp",1]
 		] 
+	],
+	
+	["turtle", 4300, 2150, 7225, 4, 4,  
+		[ 
+			["marijuana",1], 
+			["cocainep",1],
+			["heroinp",1],
+			["methp",1]
+		] 
 	]
 ];
+
 publicVariable "life_market_resources";
 
 ////////////GENERATED CONFIG

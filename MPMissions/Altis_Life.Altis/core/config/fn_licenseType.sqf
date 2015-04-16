@@ -17,7 +17,6 @@ switch (_mode) do
 		switch (_type) do
 		{
 			case "driver": {_var = "license_civ_driver"}; //Drivers License cost
-			case "moto": {_var = "license_civ_moto"}; //Driver bike License cost
 			case "boat": {_var = "license_civ_boat"}; //Boating license cost
 			case "pilot": {_var = "license_civ_air"}; //Pilot/air license cost
 			case "gun": {_var = "license_civ_gun"}; //Firearm/gun license cost
@@ -53,7 +52,8 @@ switch (_mode) do
 			case "bottledbeer": {_var = "license_civ_bottler"};
 			case "bottledwhiskey": {_var = "license_civ_bottler"};
 			case "bottler": {_var = "license_civ_bottler"};
-			case "glassbottle": {_var = "license_civ_bottler"};			
+			case "glassbottle": {_var = "license_civ_bottler"};		
+			case "moto": {_var = "license_civ_moto"};		
 			default {_var = ""};
 		};
 	};
@@ -63,7 +63,6 @@ switch (_mode) do
 		switch (_type) do
 		{
 			case "license_civ_driver": {_var = "driver"}; //Drivers License cost
-			case "license_civ_moto": {_var = "moto"}; //Drivers moto License cost
 			case "license_civ_boat": {_var = "boat"}; //Boating license cost
 			case "license_civ_air": {_var = "pilot"}; //Pilot/air license cost
 			case "license_civ_gun": {_var = "gun"}; //Firearm/gun license cost
@@ -89,6 +88,7 @@ switch (_mode) do
 			case "license_civ_home": {_var = "home"}; 
 			case "license_civ_depanneur": {_var = "depanneur"};
 			case "license_civ_meth": {_var = "meth"};
+			case "license_civ_moto": {_var = "moto"};
 			default {_var = ""};
 		};
 	};
